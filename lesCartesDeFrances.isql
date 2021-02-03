@@ -1,0 +1,3 @@
+DROP TABLE meteoFrance.OSC.MDSOSCFR01,
+csv_registerD('/home/dieudonne/Theses/Projet_Forge_Navigation/dataResearch/meteoFrance/WorstFormedData/OSC', '*.csv','MeteoFrance', 'OSC'),
+csv_loader_run(),
